@@ -93,7 +93,7 @@ Players.PlayerAdded:Connect(function(player)
 end);
 
 -- // Initialise Text
-ChatSpy.Chat.Text = "[SPY] - "..(ChatSpy.Enabled and "Enabled." or "Disabled.");
+ChatSpy.Chat.Text = "[Essentials.cc Chat Spy] - "..(ChatSpy.Enabled and "Enabled." or "Disabled.");
 StarterGui:SetCore("ChatMakeSystemMessage", ChatSpy.Chat);
 
 -- // Update Chat Frame
